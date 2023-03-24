@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1660842362",
+        "python_version": "3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\ALUMNOS\\Documents\\Inteligencia Artificial Avanzada\\Reinforcement Learning\\venv\\Scripts\\mlagents-learn Config\\Basic.yaml.txt --run-id=MoveToGoal7",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1660842372"
+    },
+    "total": 9.7558635,
+    "count": 1,
+    "self": 0.011656200000000894,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0792408,
+            "count": 1,
+            "self": 0.0792408
+        },
+        "TrainerController.start_learning": {
+            "total": 9.6649665,
+            "count": 1,
+            "self": 7.690000000160069e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.6648795,
+                    "count": 1,
+                    "self": 9.6648795
+                },
+                "TrainerController._save_models": {
+                    "total": 1.0099999999013676e-05,
+                    "count": 1,
+                    "self": 1.0099999999013676e-05
+                }
+            }
+        }
+    }
+}

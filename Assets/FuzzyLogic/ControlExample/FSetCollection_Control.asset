@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e899f857f200f74698dfe1d35f8d32a, type: 3}
+  m_Name: FSetCollection_Control
+  m_EditorClassIdentifier: 
+  Collection:
+  - Category: {fileID: 11400000, guid: cb583044df23beb4980133e5554274e7, type: 2}
+    MembershipFunction: 1
+    CrispValue: -150
+    x0: -40
+    x1: -30
+    x2: 0
+    x3: 0
+  - Category: {fileID: 11400000, guid: 69faa35246b1fa3448414d062b13428e, type: 2}
+    MembershipFunction: 3
+    CrispValue: -150
+    x0: -40
+    x1: -30
+    x2: -10
+    x3: 0
+  - Category: {fileID: 11400000, guid: 208fe5d8dcf1d9f4b975192cb3cf593a, type: 2}
+    MembershipFunction: 2
+    CrispValue: 0
+    x0: -10
+    x1: 0
+    x2: 10
+    x3: 0
+  - Category: {fileID: 11400000, guid: a7945ef2751acf544bad564ef5ef34e9, type: 2}
+    MembershipFunction: 3
+    CrispValue: 150
+    x0: 0
+    x1: 10
+    x2: 30
+    x3: 40
+  - Category: {fileID: 11400000, guid: 567b02bf45f0c444d86b26c38eca39ea, type: 2}
+    MembershipFunction: 0
+    CrispValue: 150
+    x0: 30
+    x1: 40
+    x2: 0
+    x3: 0

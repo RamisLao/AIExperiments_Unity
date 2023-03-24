@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9c8a3d51857c140988303c4b1424ee, type: 3}
+  m_Name: FuzzyRuleCollection
+  m_EditorClassIdentifier: 
+  FuzzyRules:
+  - FuzzyRuleOperators:
+    - Operator: 0
+      Not: 0
+      Category: {fileID: 11400000, guid: d2d31544fdc12b848ba90ad059c593e1, type: 2}
+    - Operator: 0
+      Not: 1
+      Category: {fileID: 11400000, guid: 2934fdd4aa8fdc04e814e3cdcd503a8f, type: 2}
+    Output: {fileID: 11400000, guid: f865ffa2f578d22488141bfc9e619ee2, type: 2}
+  - FuzzyRuleOperators:
+    - Operator: 0
+      Not: 0
+      Category: {fileID: 11400000, guid: 67bf9fe0936d6e2499369b502510fd9d, type: 2}
+    - Operator: 1
+      Not: 0
+      Category: {fileID: 11400000, guid: d56e8cca59e2eef48ae1830b8a66bcbc, type: 2}
+    - Operator: 0
+      Not: 0
+      Category: {fileID: 11400000, guid: 681737fa3a59190449fa80ba32cd82eb, type: 2}
+    Output: {fileID: 11400000, guid: 9ddfcfa67e3720b479a0fc48c4189795, type: 2}
+  - FuzzyRuleOperators:
+    - Operator: 0
+      Not: 0
+      Category: {fileID: 11400000, guid: d2d31544fdc12b848ba90ad059c593e1, type: 2}
+    - Operator: 1
+      Not: 0
+      Category: {fileID: 11400000, guid: 60cca428709c6174ea581e2f1fad788c, type: 2}
+    - Operator: 0
+      Not: 0
+      Category: {fileID: 11400000, guid: 2934fdd4aa8fdc04e814e3cdcd503a8f, type: 2}
+    Output: {fileID: 11400000, guid: 293fe54bcddd1c443b55756010bad13f, type: 2}
